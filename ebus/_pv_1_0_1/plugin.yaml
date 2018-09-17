@@ -3,10 +3,10 @@ plugin:
     # Global plugin attributes
     type: interface                 # plugin type (gateway, interface, protocol, system, web)
     description:
-        de: 'Steuerung von Buderus Heizkesseln über ein Logamatic web KM200 Modul (noch in der Entwicklung)'
+        de: 'Unterstützt eBus Heizungen (Vailant, Wolf, Kromschroeder)'
         en: ''
-    maintainer: rthill             # Who maintains this plugin?
-#    tester: efgh                   # Who tests this plugin?
+    maintainer: '?'
+    tester: Sandman60
 #    keywords: kwd1 kwd2            # keywords, where applicable
 #    documentation: https://github.com/smarthomeNG/plugins/blob/develop/mqtt/README.md        # url of documentation (wiki) page
 #    support: https://knx-user-forum.de/forum/supportforen/smarthome-py
@@ -16,7 +16,7 @@ plugin:
 #    sh_minversion: 1.3             # minimum shNG version to use this plugin
 #    sh_maxversion:                 # maximum shNG version to use this plugin (leave empty if latest)
 #    multi_instance: False
-    classname: Homematic            # class containing the plugin
+    classname: eBus                 # class containing the plugin
 
 #parameters:
     # Definition of parameters to be configured in etc/plugin.yaml
